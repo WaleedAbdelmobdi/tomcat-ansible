@@ -96,7 +96,11 @@ Playbook executed as sudo user - with ssh key and passwordless sudo:
 $ ansible-playbook -i hosts tomcat-setup.yml --ask-become-pass
 ```
 
-Execution should be successful without errors:
 
-```
-```
+- Test the Tomcat Installation 
+
+Open your browser and type: http://<your_domain_or_IP_address>:9095
+
+- Test the Tomcat Installation 
+
+Open your browser and type: http://<your_domain_or_IP_address>:9095/app/
